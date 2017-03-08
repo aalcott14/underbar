@@ -184,18 +184,6 @@
     return accumulator;
   };
 
-  /*_.each = function(collection, iterator) {
-    if (Array.isArray(collection)) {
-      for (var i = 0; i < collection.length; i++) {
-        iterator(collection[i], i, collection);
-      }
-    } else {
-      for (var i in collection) {
-        iterator(collection[i], i, collection);
-      }
-    }
-  };
-*/
   // Determine if the array or object contains a given value (using `===`).
   _.contains = function(collection, target) {
     // TIP: Many iteration problems can be most easily expressed in
@@ -212,6 +200,7 @@
   // Determine whether all of the elements match a truth test.
   _.every = function(collection, iterator) {
     // TIP: Try re-using reduce() here.
+   
   };
 
   // Determine whether any of the elements pass a truth test. If no iterator is
