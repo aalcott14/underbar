@@ -313,6 +313,7 @@
   _.memoize = function(func) {
     var result = {};
     return function (arg) {
+      arg = JSON.stringify(arguments);
       if (result.hasOwnProperty(arg)) {
         return result[arg];
       } else {
